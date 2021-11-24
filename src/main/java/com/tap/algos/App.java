@@ -1,13 +1,10 @@
 package com.tap.algos;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+import java.io.IOException;
+
+public class App {
+    public static void main(String[] args) throws IOException {
+        org.openjdk.jmh.Main.main(args);
+
     }
 }
