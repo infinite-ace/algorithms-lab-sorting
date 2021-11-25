@@ -14,7 +14,7 @@ we have a sorted array.
 This line prevents us from accessing an unexisting element, since we have certain
 amount of elements:
 
-`        int arrayLength = arrayToSort.length - 1;
+`int arrayLength = arrayToSort.length - 1;
 `
 
 But we are checking for the next using this if statement:
@@ -22,7 +22,7 @@ But we are checking for the next using this if statement:
 `if(arrayToSort[i] > arrayToSort[i + 1])
 `
 
-And when we hit the last element there is no next element
-However we certainly know that the last element is sorted at the first phase, so there
+And when we hit the last element there is no next element and that would cause an 
+error if we try to access it. However we certainly know that the last element is sorted at the first phase, so there
 is no point to swap it. That way our code is safe and it does what it's supposed to do.
 
