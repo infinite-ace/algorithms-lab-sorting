@@ -23,8 +23,8 @@ public class AppTest
 
     @Test
     public void insertionSort(){
-        int[] result = InsertionSortMain.insertionSort(new int[]{2, 1, 3, 4, 5});
-        int[] test = {1,2,3,4,5};
+        int[] result = InsertionSortMain.insertionSort(new int[]{2, 1, 3, 4, 5, 300, 1234, 8000, 251});
+        int[] test = {1, 2, 3, 4, 5, 251, 300, 1234, 8000};
 
         for (int i=0;i<result.length;i++) {
             assertEquals(result[i], test[i]);
