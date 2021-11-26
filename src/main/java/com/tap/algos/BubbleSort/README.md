@@ -1,7 +1,7 @@
 # BubbleSort
 
-##### Explanation
-##Abstract:
+## Explanation
+
 We will compare and swap each element under certain condition using nested for loops.
 For this reason it will be handy to implement a swap function, but since it's 3 lines,
 I will keep it inside the body of the if statement.
